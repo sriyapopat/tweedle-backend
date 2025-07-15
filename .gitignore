@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv environment variables
+.env
+
+# Optional:
+.DS_Store
+dist/
+coverage/
