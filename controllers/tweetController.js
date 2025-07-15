@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '../data/data.json');
-
+/*ijwhksx*/
 // Helper function to read data
 async function readData() {
   try {
