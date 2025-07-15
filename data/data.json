@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "bio": "Loves React and building cool apps!",
+      "joinedDate": "2023-01-15",
+      "followers": 100,
+      "following": 50,
+      "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "bio": "Frontend developer and design enthusiast",
+      "joinedDate": "2023-02-20",
+      "followers": 75,
+      "following": 120,
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+    }
+  ],
+  "tweets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "john_doe",
+      "content": "Just built an amazing React app! 🚀 #coding #react",
+      "timestamp": "2024-01-01T10:00:00Z",
+      "likes": 5,
+      "likedBy": [2],
+      "comments": [
+        {
+          "id": 1,
+          "userId": 2,
+          "username": "jane_smith",
+          "content": "Awesome work! Would love to see it.",
+          "timestamp": "2024-01-01T10:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "jane_smith",
+      "content": "Beautiful sunrise this morning ☀️ Perfect start to the day!",
+      "timestamp": "2024-01-02T08:30:00Z",
+      "likes": 12,
+      "likedBy": [1],
+      "comments": []
+    }
+  ],
+  "nextUserId": 3,
+  "nextTweetId": 3
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tweedle-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Tweedle - A Twitter-like social media application",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["twitter", "social-media", "api", "node", "express"],
+  "author": "Tweedle Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  }
+}
