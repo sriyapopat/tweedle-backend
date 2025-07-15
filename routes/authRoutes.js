@@ -5,7 +5,7 @@ const router = express.Router();
 
 // POST /api/auth/register
 router.post('/register', authController.register);
-
+ /*ijwhksx*/
 // POST /api/auth/login
 router.post('/login', authController.login);
 

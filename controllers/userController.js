@@ -4,6 +4,7 @@ const path = require('path');
 const DATA_FILE = path.join(__dirname, '../data/data.json');
 
 // Helper function to read data
+ /*ijwhksx*/
 async function readData() {
   try {
     const data = await fs.readFile(DATA_FILE, 'utf8');

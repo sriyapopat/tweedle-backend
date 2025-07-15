@@ -5,7 +5,7 @@ const JWT_SECRET = 'your-secret-key-change-in-production';
 const authMiddleware = (req, res, next) => {
   try {
     const authHeader = req.headers.authorization;
-    
+     /*ijwhksx*/
     if (!authHeader) {
       return res.status(401).json({ message: 'Access token is missing' });
     }
